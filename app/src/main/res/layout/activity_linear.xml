@@ -42,9 +42,9 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:layout_gravity="center"
-        android:layout_marginHorizontal="30dp"
+        android:layout_marginHorizontal="20dp"
         android:layout_marginTop="40dp"
-        android:weightSum="1">
+        android:weightSum="1.5">
 
 
         <Button
@@ -52,8 +52,15 @@
             android:layout_weight="0.5"
             android:layout_height="wrap_content"
             android:text="Login"
-            android:layout_marginRight="30dp"/>
+            android:layout_marginRight="10dp"/>
 
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:layout_marginRight="10dp"/>
 
         <Button
             android:layout_width="0dp"
