@@ -76,4 +76,19 @@
         android:paddingHorizontal="40dp"
         android:text="Login"
         android:textColor="#000" />
+
+
+    <android.widget.Button
+        android:id="@+id/btn_send"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_login"
+        android:layout_centerHorizontal="true"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btn_bg"
+        android:elevation="20dp"
+        android:paddingHorizontal="40dp"
+        android:text="send"
+        android:textColor="#000" />
 </RelativeLayout>
