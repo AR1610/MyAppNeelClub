@@ -12,6 +12,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyAppNeelClub">
         <activity
+            android:name=".RatingbarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ImagePickActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="false" />
         <activity
@@ -21,7 +27,7 @@
             android:name=".LinearActivity"
             android:exported="false" />
         <activity
-            android:name=".ImagePickActivity"
+            android:name=".AlertDialogActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
