@@ -21,4 +21,11 @@
         android:id="@+id/btn_Dialog"
         android:text="Custom Dialog"/>
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_toast"
+        android:text="Custom Toast"/>
+
+
 </LinearLayout>

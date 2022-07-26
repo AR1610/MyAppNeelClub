@@ -12,7 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyAppNeelClub">
         <activity
-            android:name=".AlertDialogActivity"
+            android:name=".DateTimeActivity"
             android:exported="false" />
         <activity
             android:name=".RatingbarActivity"
@@ -30,7 +30,7 @@
             android:name=".LinearActivity"
             android:exported="false" />
         <activity
-            android:name=".DateTimeActivity"
+            android:name=".AlertDialogActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
